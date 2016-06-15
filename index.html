@@ -31,18 +31,19 @@
 <p>There is a certain lag in the reporting of installed capacity, which is why 2015 is showing a decline, so we will focus on 2000-2014 where data are more comprehensive. In monthly installed capacity, we see irregular spikes in installed capacity, and once we look into that in more detail- it turns out they reflect large one-time installations in different states. </p>
 <img src="https://vagrant:8888/files/GLOW/Top%2010%20states.png" alt="New solar PV capacity" style="width:330px;height:255px;">
 <img src="https://vagrant:8888/files/GLOW/New_solar_by_state.png" alt="New solar PV capacity" style="width:330px;height:255px;">
-
+<p>The next two map help us visualize the data. On the  below maps the solar PV capacity growth over the past 15 years. The base layer of the map shows the average energy price for electricity in that states over the same period of time. It is clear that high prices and PV capacity growth is correlated.  </p>
+<p>Growth of Solar PV capacity 2000 - 2016</p>
 <iframe width="100%" height="520" frameborder="0" src="https://ugor03.cartodb.com/viz/da916dda-30fb-11e6-8a53-0e31c9be1b51/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-<p>Solar Power Density Map </p>
+<p>Solar Power Density Map 2016</p>
 
 <iframe width="100%" height="520" frameborder="0" src="https://ugor03.cartodb.com/viz/2dd0aca2-3289-11e6-a380-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-<p>Now, what factors are significant for the spread of solar? How does it respond to the price signal? What is the value of solar to the consumer?</p>
-
+<p>A surprise factor is that the most robust solar markets are only marginally correlated with areas of the highest solar radiation in the USA - see the propensity of solar in states like New York, Connecticut and Illinois! Even more surprising - growth of solar in states with both low solar radiation and low utility prices - such as Montana, Wyoming, Idaho and Washington.</p>
 <img src="http://www.nrel.gov/gis/images/eere_pv/national_photovoltaic_2012-01.jpg" alt="USA Solar Radiation map" style="width:7920px;height:612px;">
+<p>I hypothesis that there are three domains that determine the variability of solar market growth.</p>
+<img src="https://vagrant:8888/files/GLOW/Data%20for%20machine%20learning.png" alt="ML data chart" style="width:792px;height:612px;">
 
-
+<p>Now, the next step is to design and train machine learning models to determine what factors are significant for the spread of solar (supervised learning/linear regression)? What are the main clusters of consumers (unsupervised, k-means clusetering)? Can we predict the emergence of new promising markets for solar?</p>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
